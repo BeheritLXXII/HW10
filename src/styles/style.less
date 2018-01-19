@@ -1,0 +1,49 @@
+.Card {
+	border: none;
+	&-text {
+		width: 100%;
+		text-align: left;
+		column-count: 3;
+		column-gap: 20px;
+		color: #727272;
+	}
+	&-colorText {
+		color: orange;
+		border-left: 3px solid orange;
+		padding-left: 15px;
+		margin-left: 5px;
+		&-link {
+			color: orange;
+		}
+	}
+	&-italicText {
+		color: lightgray;
+		font-style: italic;
+		padding-left: 10px;
+	}
+	&-linkBox {
+		display: block;
+		text-align: right;
+	}	
+}
+.quotation {
+	display: flex;
+}
+.quotes {
+	font-size: 5em;
+	font-style: italic;
+	margin-top: -40px;
+	color: lightgray;
+}
+.quotes-bottom {
+	font-size: 5em;
+	font-style: italic;
+	margin-top: 270px;
+	color: lightgray;
+}
+.italicText-linkExtend {
+	color: orange;
+}
+.italicText-linkExtend:before {
+	content: '\2023';
+}
